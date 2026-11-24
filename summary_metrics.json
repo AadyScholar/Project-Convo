@@ -1,0 +1,203 @@
+{
+  "total_messages": 9241,
+  "unique_speakers": [
+    "Girl",
+    "Boy"
+  ],
+  "date_range": [
+    "2026-06-11 15:54:54",
+    "2026-08-16 13:56:23"
+  ],
+  "total_active_days": 59,
+  "longest_day_streak": 22,
+  "speaker_stats": {
+    "Girl": {
+      "message_count": 3966,
+      "avg_length": 18.2,
+      "avg_sentiment": 0.017,
+      "positive_ratio": 0.12,
+      "negative_ratio": 0.091,
+      "neutral_ratio": 0.788,
+      "total_emojis": 347
+    },
+    "Boy": {
+      "message_count": 5275,
+      "avg_length": 19.9,
+      "avg_sentiment": 0.016,
+      "positive_ratio": 0.147,
+      "negative_ratio": 0.105,
+      "neutral_ratio": 0.748,
+      "total_emojis": 80
+    }
+  },
+  "initiations": {
+    "Girl": 44,
+    "Boy": 48
+  },
+  "last_words": {
+    "Girl": 37,
+    "Boy": 55
+  },
+  "streaks": {
+    "Girl": {
+      "avg_streak": 1.76,
+      "max_streak": 30
+    },
+    "Boy": {
+      "avg_streak": 2.35,
+      "max_streak": 81
+    }
+  },
+  "response_times": {
+    "Girl": {
+      "median_mins": 0.12,
+      "mean_mins": 7.24,
+      "sample_count": 2237,
+      "latency_breakdown": {
+        "1-5 mins": 152,
+        "< 1 min": 1883,
+        "5-30 mins": 117,
+        "30-120 mins": 52,
+        "> 2 hrs": 33
+      }
+    },
+    "Boy": {
+      "median_mins": 0.13,
+      "mean_mins": 7.36,
+      "sample_count": 2243,
+      "latency_breakdown": {
+        "> 2 hrs": 35,
+        "5-30 mins": 141,
+        "< 1 min": 1843,
+        "1-5 mins": 176,
+        "30-120 mins": 48
+      }
+    }
+  },
+  "top_emojis": {
+    "Girl": [
+      [
+        "🤣",
+        206
+      ],
+      [
+        "😏",
+        22
+      ],
+      [
+        "😭",
+        19
+      ],
+      [
+        "😈",
+        12
+      ],
+      [
+        "🥺",
+        11
+      ],
+      [
+        "🖕",
+        10
+      ],
+      [
+        "🤮",
+        8
+      ],
+      [
+        "😔",
+        7
+      ],
+      [
+        "🤦‍♀️",
+        7
+      ],
+      [
+        "😶",
+        5
+      ],
+      [
+        "☠️",
+        4
+      ],
+      [
+        "👏",
+        3
+      ],
+      [
+        "🥲",
+        3
+      ],
+      [
+        "💅",
+        3
+      ],
+      [
+        "🙂",
+        2
+      ]
+    ],
+    "Boy": [
+      [
+        "😂",
+        14
+      ],
+      [
+        "😏",
+        8
+      ],
+      [
+        "🙂",
+        8
+      ],
+      [
+        "😭",
+        6
+      ],
+      [
+        "🌚",
+        6
+      ],
+      [
+        "🥰",
+        5
+      ],
+      [
+        "👎",
+        4
+      ],
+      [
+        "😌",
+        3
+      ],
+      [
+        "👎🏻",
+        3
+      ],
+      [
+        "💅🏻",
+        2
+      ],
+      [
+        "😒",
+        2
+      ],
+      [
+        "🤤",
+        2
+      ],
+      [
+        "😶‍🌫️",
+        2
+      ],
+      [
+        "😑",
+        1
+      ],
+      [
+        "🙏🏻",
+        1
+      ]
+    ]
+  }
+}

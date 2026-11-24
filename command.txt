@@ -1,0 +1,30 @@
+# ============================================================
+# Chat & Relationship Analytics Pipeline
+# ============================================================
+
+cd /Users/aady/Documents/project\ convo
+source venv/bin/activate
+
+# ------------------------------------------------------------
+# Option A: Run Full Pipeline (Parse + Analyze + Report + Dashboard)
+# ------------------------------------------------------------
+python run.py
+
+# ------------------------------------------------------------
+# Option B: Run Modular Steps Individually
+# ------------------------------------------------------------
+
+# 1. Parse raw chat (supports iOS/Android, cleans unicode & system notices)
+python conversation_parser.py chat.txt -o chat.parsed.csv
+
+# 2. Advanced NLP & Behavioral Analysis (VADER, Hinglish, Emojis, Pace, Heatmaps)
+python conversation_analysis.py chat.parsed.csv -o chat.parsed.analyzed.csv
+
+# 3. Print Comprehensive Relationship Report in Terminal
+python relationship_analysis.py chat.parsed.analyzed.csv
+
+# 4. Launch Interactive Dash Dashboard (http://127.0.0.1:8050/)
+python conversation_dashboard.py
+
+# Deactivate venv when done
+deactivate
